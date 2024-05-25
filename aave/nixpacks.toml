@@ -1,0 +1,12 @@
+providers = ["node", "python"]
+
+[phases.setup]
+aptPkgs = ["build-essential"]
+
+[dapp]
+uid = "aave"
+displayName = "Aave"
+iconUri = "https://aave.com/icons/networks/aave.svg"
+repository = "https://github.com/aave/interface"
+httpPort = 3020
+ports = ["3020:3000"]
