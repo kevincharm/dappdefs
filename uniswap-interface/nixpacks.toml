@@ -15,4 +15,5 @@ cmd = "cd ./apps/web && yarn serve"
 [dapp]
 uid = "uniswap-interface"
 repository = "https://github.com/Uniswap/interface"
+httpPort = 3000
 ports = ["3000:3000"]
