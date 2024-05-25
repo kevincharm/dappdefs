@@ -5,6 +5,8 @@ cmd = "python3 -m http.server 8080"
 
 [dapp]
 uid = "tornado-mini"
+displayName = "Tornado Classic"
+iconUri = "https://upload.wikimedia.org/wikipedia/commons/2/2f/Tornado_cash_logo.jpg"
 repository = "https://github.com/tornadocash/ui-minified"
 httpPort = 8080
 ports = ["8080:8080"]

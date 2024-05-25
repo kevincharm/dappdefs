@@ -14,6 +14,8 @@ cmd = "cd ./apps/web && yarn serve"
 
 [dapp]
 uid = "uniswap-interface"
+displayName = "Uniswap"
+iconUri = "https://upload.wikimedia.org/wikipedia/commons/e/e7/Uniswap_Logo.svg"
 repository = "https://github.com/Uniswap/interface"
 httpPort = 3000
 ports = ["3000:3000"]
