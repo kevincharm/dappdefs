@@ -1,0 +1,15 @@
+providers = ["node", "python"]
+
+[phases.setup]
+aptPkgs = ["build-essential"]
+
+[start]
+cmd = "python3 -m http.server -d dist 3000"
+
+[dapp]
+uid = "alchemix"
+displayName = "Alchemix"
+iconUri = "https://alchemix.fi/images/icons/alcx_thin.svg"
+repository = "https://github.com/alchemix-finance/alchemix-v2-frontend"
+httpPort = 3040
+ports = ["3040:3000"]
